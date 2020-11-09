@@ -1,0 +1,15 @@
+*section {
+  height: 60vh;
+  margin: 30px;
+}
+.header-container {
+  position: sticky;
+  top: 0;
+}
+.nav-link {
+  margin: 0 45px;
+  padding: 20px;
+}
+.section1 {
+  padding: 50px 0;
+}
