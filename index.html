@@ -19,12 +19,7 @@
       .section3 img{
         width:45%;
       }
-      .section3 .card{
-        width:550px;
-        height: 380px;
-        margin: 10px;
-        
-      }
+     
        .nav-item a{
         color: coral;
         
@@ -34,6 +29,7 @@
         background-color: black;
         color:rgba(255, 127, 80, 0.774);
       }
+      
        
     </style>
   <body>
@@ -78,15 +74,15 @@
         <section style="height: 80vh" class="section1 ">
           <div class="container">
           <div class="row justify-content-md-around">
-            <div class="col-6">
-              <div class="d-flex justify-content-md-center p-5">
+            <div class="col-md-6 col-sm-12">
+              <div class="d-flex justify-content-md-center p-md-5">
                 <div class="align-content-center">
                   <h1 style="color: rgb(71, 29, 13);">ORIAGHEMUORIA MERIT</h1>
                   <p style="color: coral;" class="text-center">THE FRONT END DEVELOPER</p>
                 </div>
               </div>
             </div>
-            <div class="col-6">
+            <div class="col-md-6 col-sm-12">
               <img
                 src="images/IMG_9013.jpg"
                 class=""
@@ -100,13 +96,13 @@
         <section style="height: 90vh;" id="theDeveloper"  class="section2 ">
           <div class="container">
           <div class="row">
-            <div class="col-4 p-5">
+            <div class="col-md-4 col-sm-12 p-md-5 ml-sm-3 ml-md-0">
               <img style="border-radius: 50%;"
                 src="images/pngtree-programmer-woman-vector-programmer-workspace-working-on-internet-using-laptop-cartoon-png-image_1887006.jpg"
                 alt=""
               />
             </div>
-            <div class="col-8 p-md-5 ">
+            <div class="col-md-8 col-sm-12 p-md-5 ">
               <p class="text-justify p-2">
                 Merit Oriaghemuoria is a talented front end developer who has  natural talents for design and replicating what the clients wants. The ability to discern the user experience isnt something that comes so ordinarily.Shes focused on HTML,CSS, BOOTSTRAP, JAavascript and basic knowledge of C#.with this knowledge she has been able to put together a few small projects and has experience in UX.
               </p>
@@ -125,7 +121,7 @@
             <div class="item">
               <div class="card">
                 <div class="card-body">
-                  <img src="images/Merit Hope.png" alt="">
+                  <img class="picture" src="images/Merit Hope.png" alt="">
                   <h4 class="card-title m-1 text-center">Hope</h4>
                   
                     <a href="https://hope-center.netlify.app/" class="btn btn-primary">Visit Website</a>
@@ -137,7 +133,7 @@
             </div>
             <div class="item">
               <div class="card">
-                <div class="card-body"><img src="images/chocolaat royale.png" alt="">
+                <div class="card-body"><img class="picture" src="images/chocolaat royale.png" alt="">
                   <h4 class="card-title m-1 text-center">Chocolat Royale</h4>
                   <a href="https://chocolat-royale.netlify.app/" class="btn btn-primary">Visit Website</a>
     
@@ -147,9 +143,9 @@
             <div class="item">
               <div class="card">
                 <div class="card-body">
-                  <img src="images/Merit git hub finder.png" alt="">
+                  <img class="picture" src="images/Merit git hub finder.png" alt="">
                   <h4 class="card-title m-1 text-center">GitHub Finder</h4>
-                  <a href="#" class="btn btn-primary">Visit Website</a>
+                  <a href="https://toriia-github.netlify.app/" class="btn btn-primary">Visit Website</a>
     
                 </div>
               </div>
@@ -157,7 +153,7 @@
             <div class="item">
               <div class="card">
                 <div class="card-body">
-                  <img style="height:260px" src="images/Consuloan picture.png" alt="">
+                  <img class="picture pb-md-4" style="height: auto;" src="images/Consuloan picture.png" alt="">
                   <h4 class="card-title m-1 text-center">Consuloan</h4>
                   <a href="https://consuloan.netlify.app/" class="btn btn-primary">Visit Website</a>
     
@@ -167,7 +163,7 @@
             <div class="item">
               <div class="card">
                 <div class="card-body">
-                  <img style="height:260px" src="images/Merit third picture.png" alt="">
+                  <img class="picture"  src="images/Merit third picture.png" alt="">
                   <h4 class="card-title m-1 text-center">Manage</h4>
                   <a href="https://manage-toriia.netlify.app/" class="btn btn-primary">Visit Website</a>
     
@@ -177,8 +173,8 @@
             <div class="item">
               <div class="card">
                 <div class="card-body">
-                  <img style="height:260px" src="images/Prankton picture 2.png" alt="">
-                  <h4 class="card-title m-1 text-center">Prankton</h4>
+                  <img class="picture" style="height:fit-content;" src="images/Prankton picture 2.png" alt="">
+                  <h4 class="card-title text-center">Prankton</h4>
                   <a href="#" class="btn btn-primary">Visit Website</a>
     
                 </div>
@@ -194,10 +190,10 @@
         <section id="contact" class="section4 " style="background-color: black; color: white; height: 60vh;">
 <div class="container">
   <div class="row">
-    <div class="col-4">
+    <div class="col-md-4 col-sm-12">
       <img style="width: 100%; padding: 30px; " src="images/phone picture.svg" alt="">
     </div>
-    <div class="col-8 p-md-5">
+    <div class="col-md-8 col-sm-12 p-md-5">
       <div id="accordion">
 
         <div class="card" style="background-color: coral; color: white;">
@@ -278,6 +274,12 @@
     autoplayTimeout: 4000,
     responsive:{
         0:{
+            items:1
+        }, 
+        600:{
+            items:2
+        }, 
+        1000:{
             items:2
         }, 
     }
