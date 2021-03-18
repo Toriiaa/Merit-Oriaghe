@@ -5,6 +5,7 @@
 .header-container {
   position: sticky;
   top: 0;
+  z-index: 1;
 }
 .nav-link {
   margin: 0 45px;
@@ -12,4 +13,7 @@
 }
 .section1 {
   padding: 50px 0;
+}
+body{
+  scroll-behavior: smooth;
 }
