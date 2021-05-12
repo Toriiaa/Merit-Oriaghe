@@ -15,10 +15,28 @@
     <link rel="stylesheet" href="css/owl.carousel.min.css">
     <link rel="stylesheet" href="css/owl.theme.default.min.css">
     
-  
+    <link rel="stylesheet"
+          href="https://fonts.googleapis.com/css2?family=Crimson+Pro">
+          <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
        
     </style>
   <body data-spy="scroll" data-target=".navbar" data-offset="50">
+    <section style="height: 80vh;background-color: black;" class="section1 text-white d-xl-flex ">
+      <div data-aos="fade-right"
+      data-aos-offset="500"
+      data-aos-easing="ease-in-sine"  data-aos-duration="5000" 
+      class="container d-flex align-items-center ">
+      <div  class="align-self-center">
+        <h1 style="font-family: 'Crimson Pro', serif;
+        font-size: 40px;
+  ">Hello!</h1>
+        <h2>My name is Merit Oriaghemuoria</h2>
+        <p>I am front end developer, Welcome to my Page</p>
+      </div>
+        
+      </div>
+    
+    </section>
     <div style="position: sticky; z-index: 1;" class="header-container  " id="head-nav">
       <header class="container">
         <nav style="position: sticky; z-index: 1;" class="navbar navbar-expand-md d-flex fixed-top ">
@@ -57,39 +75,15 @@
     </div>
     <div>
       <main>
-        <section style="height: auto" class="section1 ">
-          <div class="container">
-          <div class="row justify-content-md-around">
-            <div class="col-md-6 col-sm-12">
-              <div class="d-flex justify-content-md-center p-md-5">
-                <div class="align-content-center">
-                  <h1 style="color: rgb(71, 29, 13);">ORIAGHEMUORIA MERIT</h1>
-                  <p style="color: coral;" class="text-center">THE FRONT END DEVELOPER</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-6 col-sm-12">
-              <img
-                src="images/IMG_9013.jpg"
-                class=""
-                style="width: 250px; border: 2px coral solid; border-radius: 50%"
-                alt=""
-              />
-            </div>
-          </div>
-        </div>
-        </section>
+       
         <section style="height: auto;" id="theDeveloper"  class="section2  p-3">
           <div class="container">
+            
           <div class="row">
-            <div class="col-md-4 col-sm-12 p-md-5 ml-sm-3 ml-md-0">
-              <img style="border-radius: 50%;"
-                src="images/pngtree-programmer-woman-vector-programmer-workspace-working-on-internet-using-laptop-cartoon-png-image_1887006.jpg"
-                alt=""
-              />
-            </div>
+            
             <div class="col-md-8 col-sm-12 p-md-5 ">
-              <p class="text-justify p-2">
+              <h3 class="p-1" style="border-bottom: 2px solid white; display: inline;">ABOUT ME</h3>
+              <p class="text-justify  mt-4">
                 Merit Oriaghemuoria is a gifted front end developer with a natural ability to design and replicate what the client desires.
 The ability to recognize the user interface isn't something that everyone has.
 She has a strong understanding of markups, HTML5 and CSS3, as well as JavaScript and the Reactjs frameworks, as well as a limited understanding of C#.
@@ -98,15 +92,23 @@ She is always eager to learn and is a strong supporter of personal development. 
               </p>
               <div class="links">
                 
-                <a style="color: white; text-decoration: none; background-color: coral;" class="ml-4 mb-2 btn btn" href="https://drive.google.com/file/d/1_xiBmIMXkRMHRaG-7dyUW8dPH6bJKs_Q/view?usp=sharing"> Download my CV</a>
+                <a style="color: white; text-decoration: none; background-color: coral;" class="ml-sm-4 ml-lg-0 mb-2 btn btn" href="https://drive.google.com/file/d/1_xiBmIMXkRMHRaG-7dyUW8dPH6bJKs_Q/view?usp=sharing"> Download my CV</a>
                 <a style="color: white; text-decoration: none; background-color: coral;" class="ml-4 mb-2 btn btn" href="https://github.com/Toriiaa"> View my GitHub</a>
               </div>
+            </div>
+            <div class="col-md-4 col-sm-12 p-md-5 ml-sm-3 ml-md-0">
+              <img style="border-radius: 50%;
+              width: 100%;"
+                src="images/IMG_9013.jpg"
+                alt=""
+              />
             </div>
           </div>
         </div>
         </section>
         <section id="works" class="section3 mt-4" style="height:auto ;">
           <div class="container">
+            <h4 style="font-weight: bold; font-size: 40px;"> PORTFOLIO</h4>
           <div class="row">
             
             <div class="col-lg-4 col-sm-12">
@@ -272,7 +274,7 @@ She is always eager to learn and is a strong supporter of personal development. 
       </main>
     </div>
     
-
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
       integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
@@ -330,6 +332,10 @@ She is always eager to learn and is a strong supporter of personal development. 
       
     } 
   }
+        </script>
+        <script>
+          AOS.init();
+          
         </script>
   </body>
 </html>
