@@ -44,23 +44,3 @@ $(document).ready(function () {
   });
 
 
-  window.onscroll = function () {
-    scrollFunction();
-  };
-
-  function scrollFunction() {
-    if (
-      document.body.scrollTop > 120 ||
-      document.documentElement.scrollTop > 120
-    ) {
-      document.getElementById("head-nav").style.backgroundColor =
-        "rgba(0, 0, 0,0.5)";
-      document.getElementById("main").style.padding = "10px";
-      document.getElementById("main-logo").style.fontSize = "30px";
-    } else {
-      document.getElementById("head-nav").style.backgroundColor =
-        "rgb(0, 0, 0)";
-      document.getElementById("main").style.padding = "20px";
-      document.getElementById("main-logo").style.fontSize = "50px";
-    }
-  }
